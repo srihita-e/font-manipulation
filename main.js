@@ -18,9 +18,9 @@ function modelLoaded() {
 
 function draw() {
     background('#CBC3E3')
-    document.getElementById('square_side').innerHTML = "widht and height of a square will be" + difference + "px";
+    document.getElementById('font_size').innerHTML = "font size of the text will be" + difference + "px";
+    textSize(difference);
     fill('#4B0082');
-    stroke('#4B0082');
     text('Srihita', 50, 400);
 }
 
